@@ -1,6 +1,6 @@
 // El selection
 const theFaceEl = document.querySelector('#smiley-face')
-const eyesEl = document.querySelectorAll('.eye')
+
 
 
 // matterials
