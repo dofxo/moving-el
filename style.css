@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: #FAF8F1;
+}
+
+/* the head */
+#smiley-face {
+    width: 200px;
+    height: 200px;
+    background-color: #E5BA73;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+    box-shadow: 2px 2px 5px -1px #C58940;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* eyes */
+#eyes {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.eye {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/* mouth */
+#mouth {
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 20px 20px 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 1px 1px #000;
+}
+
+#tongue {
+    width: 50px;
+    height: 20px;
+    background: red;
+    border-radius: 50px;
+}
